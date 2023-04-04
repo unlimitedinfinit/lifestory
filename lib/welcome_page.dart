@@ -8,7 +8,7 @@ class WelcomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Welcome to LifeStory'),
+        title: Image.asset('assets/logo.png', height: 50),
       ),
       body: Center(
         child: Column(
@@ -19,11 +19,6 @@ class WelcomePage extends StatelessWidget {
               'LifeStory App',
               style: TextStyle(fontSize: 24),
             ),
-            // You can add an app logo here, e.g. an AssetImage in a CircleAvatar or Container
-            // CircleAvatar(
-            //   backgroundImage: AssetImage('path/to/your/logo.png'),
-            //   radius: 50,
-            // ),
 
             // Spacer between app name/logo and introduction text
             SizedBox(height: 30),
