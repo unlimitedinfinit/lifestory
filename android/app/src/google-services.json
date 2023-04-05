@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "954822929726",
+    "firebase_url": "https://lifestory-631a9-default-rtdb.firebaseio.com",
+    "project_id": "lifestory-631a9",
+    "storage_bucket": "lifestory-631a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954822929726:android:5b7dd5f3532cca083c106f",
+        "android_client_info": {
+          "package_name": "com.example.lifestory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954822929726-tgt0kl2plf4vfhgda3bh2nre2md8ct85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuuzoG7m1Jw7pfNbq4BZhPHl9c9RNbL38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954822929726-tgt0kl2plf4vfhgda3bh2nre2md8ct85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

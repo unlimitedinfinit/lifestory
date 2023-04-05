@@ -1,14 +1,23 @@
 name: lifestory
-description: A platform for creating and sharing personal stories
+description: A Flutter application for creating and sharing personal stories
 version: 1.0.0
-author: Joshua Abrams
 environment:
   sdk: '>=2.16.0 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+  firebase_core: ^2.9.0
+  firebase_auth: ^4.4.0
+  cloud_firestore: ^4.5.0
+  google_sign_in: ^6.0.2
+  image_picker: ^0.8.4+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
 
 flutter:
+  uses-material-design: true
   assets:
     - assets/logo.png
